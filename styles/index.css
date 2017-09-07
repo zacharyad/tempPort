@@ -1,0 +1,114 @@
+#wrapper {
+	padding: 1% 5% 2% 5%;
+	background-color: #c6c2b1;
+	background-image: linear-gradient(180deg, #c6c2b1 0%, #ffffff 50%, #ffffff 100%);
+
+}
+
+.logoText {
+	font-size: 15px;
+	float: right;
+	padding: 15px 5px;
+}
+ 
+#hr {
+	width: 40%;
+}
+
+ img:hover {
+ 	background-color: rgba(0,0,0,.5);
+ 	border-top-right-radius: 10px;
+ 	border-bottom-right-radius: 20%;
+ }
+
+#a {
+	color: black;
+}
+
+ a:hover {
+ 	color: #595959;
+ }
+
+ #a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+#logo {	
+	width: 50px;
+/*animation*/
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: 2;
+
+
+}
+
+div.navbar-toggler {
+	padding: 3px;
+}
+
+.aboutP {
+	font-size: 30px;
+}
+
+.about {
+	background-color:transparent;
+}
+
+#animate0 {
+	animation-duration: 1s;
+	animation-delay: .3s;
+}
+
+#animate {
+	animation-duration: 2.5s;
+	animation-delay: .6s;
+}
+
+#animate1 {
+	animation-duration: 1s;
+	animation-delay: .1s;
+}
+
+#animate2 {
+	animation-duration: 1s;
+	animation-delay: .3s;
+}
+
+#animate3 {
+	animation-duration: 1s;
+	animation-delay: .6s;
+}
+
+.contactBtn {
+	padding: auto 40%;
+}
+
+#invis {
+	color: rgba(0,0,0,.0);
+}
+
+.img-thumbnail {
+	background:transparent;
+}
+
+nav {
+	margin: 1% auto;
+}
+
+.zfooter {
+	margin:5% auto 0 auto;
+}
+
+.zfooter h4 {
+	font-size: 15px;
+}
+
+.img-thumbnail {
+	background-color:transparent!important;
+	border-color: transparent !important;
+}
+
+
+
