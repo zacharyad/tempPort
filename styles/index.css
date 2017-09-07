@@ -44,16 +44,12 @@
 
 }
 
-div.navbar-toggler {
-	padding: 3px;
+.about {
+	background-color:transparent;
 }
 
 .aboutP {
-	font-size: 30px;
-}
-
-.about {
-	background-color:transparent;
+	font-size: 35px;
 }
 
 #animate0 {
@@ -109,6 +105,5 @@ nav {
 	background-color:transparent!important;
 	border-color: transparent !important;
 }
-
 
 
