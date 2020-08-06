@@ -10,51 +10,44 @@
 	float: right;
 	padding: 15px 5px;
 }
- 
+
 #hr {
 	width: 40%;
 }
-
- img:hover {
- 	background-color: rgba(0,0,0,.5);
- 	border-top-right-radius: 10px;
- 	border-bottom-right-radius: 20%;
- }
 
 #a {
 	color: black;
 }
 
- a:hover {
- 	color: #595959;
- }
+a:hover {
+	color: #595959;
+}
 
- #a:hover {
+#a:hover {
 	color: grey;
 	text-decoration: none;
 }
 
-#logo {	
+#logo {
 	width: 50px;
-/*animation*/
+	/*animation*/
 	animation-duration: 5s;
-	animation-delay: 1s;
+	animation-delay: .5s;
 	animation-iteration-count: 2;
 
 
 }
 
 .about {
-	background-color:transparent;
+	background-color: transparent;
 }
 
 .aboutP {
 	font-size: 35px;
 }
 
-#animate0 {
-	animation-duration: 1s;
-	animation-delay: .3s;
+#ProjectsH2Animated {
+	animation: in 1s ease-in .3s;
 }
 
 #animate {
@@ -81,12 +74,20 @@
 	padding: auto 40%;
 }
 
+.hover {
+	animation: in 4s;
+}
+
+.hover:hover {
+	animation: in 4s;
+}
+
 #invis {
-	color: rgba(0,0,0,.0);
+	color: rgba(0, 0, 0, .0);
 }
 
 .img-thumbnail {
-	background:transparent;
+	background: transparent;
 }
 
 nav {
@@ -94,7 +95,7 @@ nav {
 }
 
 .zfooter {
-	margin:5% auto 0 auto;
+	margin: 5% auto 0 auto;
 }
 
 .zfooter h4 {
@@ -102,8 +103,30 @@ nav {
 }
 
 .img-thumbnail {
-	background-color:transparent!important;
+	background-color: transparent !important;
 	border-color: transparent !important;
 }
 
+@-webkit-keyframes out {
+	from {
+		-webkit-transform: scale(1);
+		-webkit-transform: opacity(50%);
+	}
 
+	to {
+		-webkit-transform: scale(1.02);
+		-webkit-transform: opacity(100%);
+	}
+}
+
+@-webkit-keyframes in {
+	from {
+		-webkit-transform: scale(1.02);
+		-webkit-transform: opacity(100%);
+	}
+
+	to {
+		-webkit-transform: scale(1);
+		-webkit-transform: opacity(100%);
+	}
+}
